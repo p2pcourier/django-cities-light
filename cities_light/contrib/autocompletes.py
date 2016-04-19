@@ -1,6 +1,6 @@
 from ..loading import get_cities_models
 
-import autocomplete_light
+import autocomplete_light.shortcuts as autocomplete_light
 
 Country, Region, City = get_cities_models()
 
